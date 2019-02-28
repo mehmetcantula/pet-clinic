@@ -96,7 +96,7 @@
     </build>
 
     <scm>
-    <developerConnection>scm:git:git@gitlab.com:mehmet.c.tula/pet-clinic-application.git</developerConnection>
+    <developerConnection>scm:git:https://gitlab.com/mehmet.c.tula/pet-clinic-application.git</developerConnection>
       <tag>sfg-pet-clinic-0.0.5</tag>
   </scm>
 
