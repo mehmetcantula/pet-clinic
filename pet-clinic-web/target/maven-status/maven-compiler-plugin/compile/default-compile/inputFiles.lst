@@ -1,5 +1,8 @@
 /Users/sahabt/intellij-workspace/sfg-pet-clinic-master/pet-clinic-web/src/main/java/guru/springframework/sfgpetclinic/controllers/VetController.java
 /Users/sahabt/intellij-workspace/sfg-pet-clinic-master/pet-clinic-web/src/main/java/guru/springframework/sfgpetclinic/controllers/IndexController.java
 /Users/sahabt/intellij-workspace/sfg-pet-clinic-master/pet-clinic-web/src/main/java/guru/springframework/sfgpetclinic/controllers/OwnerController.java
+/Users/sahabt/intellij-workspace/sfg-pet-clinic-master/pet-clinic-web/src/main/java/guru/springframework/sfgpetclinic/controllers/PetController.java
+/Users/sahabt/intellij-workspace/sfg-pet-clinic-master/pet-clinic-web/src/main/java/guru/springframework/sfgpetclinic/formatters/PetTypeFormatter.java
 /Users/sahabt/intellij-workspace/sfg-pet-clinic-master/pet-clinic-web/src/main/java/guru/springframework/sfgpetclinic/SfgPetClinicApplication.java
 /Users/sahabt/intellij-workspace/sfg-pet-clinic-master/pet-clinic-web/src/main/java/guru/springframework/sfgpetclinic/bootstrap/DataLoader.java
+/Users/sahabt/intellij-workspace/sfg-pet-clinic-master/pet-clinic-web/src/main/java/guru/springframework/sfgpetclinic/controllers/VisitController.java
