@@ -1,14 +1,12 @@
 package guru.springframework.sfgpetclinic.services.map;
 
 import guru.springframework.sfgpetclinic.model.Owner;
-import guru.springframework.sfgpetclinic.services.OwnerService;
-import org.springframework.stereotype.Service;
+import guru.springframework.sfgpetclinic.services.CrudService;
 
-import java.util.List;
 import java.util.Set;
 
-@Service
-public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements OwnerService {
+
+public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements CrudService<Owner, Long> {
 
     @Override
     public Set<Owner> findAll() {
@@ -21,7 +19,9 @@ public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements 
     }
 
     @Override
-    public Owner save(Owner object) { return super.save(object); }
+    public Owner save(Owner object) {
+        return super.save(object.getId(), object);
+    }
 
     @Override
     public void delete(Owner object) {
@@ -31,15 +31,5 @@ public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements 
     @Override
     public void deleteById(Long id) {
         super.deleteById(id);
-    }
-
-    @Override
-    public Owner findByLastName(String lastName) {
-        return null;
-    }
-
-    @Override
-    public List<Owner> findAllByLastNameLike(String lastName) {
-        return null;
     }
 }
