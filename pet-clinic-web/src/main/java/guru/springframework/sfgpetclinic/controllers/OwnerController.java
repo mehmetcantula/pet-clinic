@@ -1,17 +1,22 @@
 package guru.springframework.sfgpetclinic.controllers;
 
 import guru.springframework.sfgpetclinic.services.OwnerService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+/**
+ * Created by jt on 7/22/18.
+ */
 @RequestMapping("/owners")
 @Controller
 public class OwnerController {
 
     private final OwnerService ownerService;
 
-    public OwnerController(OwnerService ownerService){
+    @Autowired
+    public OwnerController(OwnerService ownerService) {
         this.ownerService = ownerService;
     }
 
