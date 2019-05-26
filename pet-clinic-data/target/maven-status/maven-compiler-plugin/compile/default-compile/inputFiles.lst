@@ -5,7 +5,9 @@
 /Users/sahabt/intellij-workspace/sfg-pet-clinic-master/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/model/Visit.java
 /Users/sahabt/intellij-workspace/sfg-pet-clinic-master/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/services/map/PetTypeMapService.java
 /Users/sahabt/intellij-workspace/sfg-pet-clinic-master/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/services/OwnerService.java
+/Users/sahabt/intellij-workspace/sfg-pet-clinic-master/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/services/SpecialtyService.java
 /Users/sahabt/intellij-workspace/sfg-pet-clinic-master/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/model/Vet.java
+/Users/sahabt/intellij-workspace/sfg-pet-clinic-master/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/services/map/SpecialtyMapService.java
 /Users/sahabt/intellij-workspace/sfg-pet-clinic-master/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/services/map/OwnerServiceMap.java
 /Users/sahabt/intellij-workspace/sfg-pet-clinic-master/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/model/PetType.java
 /Users/sahabt/intellij-workspace/sfg-pet-clinic-master/pet-clinic-data/src/main/java/guru/springframework/sfgpetclinic/services/map/AbstractMapService.java
